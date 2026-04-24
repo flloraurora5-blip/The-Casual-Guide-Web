@@ -1,0 +1,147 @@
+/* --- Reset & Core --- */
+html { scroll-behavior: smooth; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FDFDFD;
+    color: #2D2D2D;
+    line-height: 1.6;
+}
+
+/* --- HERO SECTION --- */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url('london.jpeg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 50px;
+    border: 1px solid #EAEAEA;
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+.subtitle { text-transform: uppercase; letter-spacing: 4px; font-size: 0.8rem; color: #8C7851; }
+
+.explore-btn {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #2D2D2D;
+    border: 1px solid #2D2D2D;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.explore-btn:hover { background: #1A1A1A; color: #FFF; }
+
+/* --- NAVBAR --- */
+#navbar {
+    background: #FFF;
+    padding: 20px 0;
+    border-bottom: 1px solid #EAEAEA;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#navbar ul { display: flex; justify-content: center; list-style: none; gap: 40px; align-items: center; }
+#navbar a { text-decoration: none; color: #2D2D2D; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; }
+.nav-special { color: #8C7851 !important; border: 1px solid #8C7851; padding: 5px 10px; border-radius: 2px; }
+
+/* --- MAIN CONTENT --- */
+main { max-width: 1100px; margin: 0 auto; padding: 60px 20px; }
+
+.main-section { padding-top: 60px; margin-bottom: 100px; }
+.section-header { text-align: center; margin-bottom: 50px; }
+.chapter-no { font-family: 'Playfair Display', serif; font-style: italic; color: #8C7851; font-size: 0.9rem; }
+.section-title { font-family: 'Playfair Display', serif; font-size: 2.2rem; text-transform: uppercase; letter-spacing: 4px; }
+
+/* --- GRID --- */
+.compact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.journal-entry { text-align: center; }
+
+img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+figcaption {
+    font-size: 0.7rem;
+    font-style: italic;
+    color: #8C7851;
+    margin-top: 10px;
+}
+
+.journal-entry h3 { font-family: 'Playfair Display', serif; font-size: 1.4rem; margin: 15px 0 10px; }
+.journal-entry p { font-size: 0.9rem; color: #666; font-weight: 300; }
+
+/* --- CURATOR (ASIDE STYLING) --- */
+.curator-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.curator-box { padding: 50px; border: 1px solid #EAEAEA; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.dark { background: #1A1A1A; color: #FFF; border: none; }
+.light { background: #FFF; color: #2D2D2D; }
+
+.profile-frame { margin-bottom: 20px; }
+.curator-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #8C7851;
+    padding: 5px;
+    object-fit: cover;
+}
+
+.small-title {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.dark .small-title { color: #8C7851; }
+.curator-box p { font-size: 0.9rem; font-weight: 300; letter-spacing: 0.5px; }
+
+.curator-box ul { list-style: none; width: 100%; }
+.curator-box li { font-size: 0.85rem; padding: 10px 0; border-bottom: 1px solid #EEE; }
+.dark li { border-bottom: 1px solid #333; }
+
+/* --- FOOTER --- */
+footer { padding: 60px; text-align: center; font-size: 0.7rem; color: #BBB; text-transform: uppercase; letter-spacing: 2px; }
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 768px) {
+    .curator-grid { grid-template-columns: 1fr; }
+    .compact-grid { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 2.2rem; }
+}
