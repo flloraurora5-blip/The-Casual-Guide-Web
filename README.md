@@ -1,23 +1,24 @@
 # The Casual Guide: A Minimalist Web Archive
 
-**The Casual Guide** adalah proyek submission akhir untuk kelas **Belajar Dasar Pemrograman Web** di **Dicoding Indonesia**. Website ini merupakan arsip digital personal yang dikurasi dengan estetika vintage/retro, menampilkan daftar destinasi impian dan makanan favorit saya.
+<img width="1880" height="894" alt="Screenshot 2026-04-24 131615" src="https://github.com/user-attachments/assets/4d451b7f-0e3f-40ae-b9c5-45843c709fb4" />
 
-## Project Concept
+**The Casual Guide** adalah proyek submission akhir untuk kelas **Belajar Dasar Pemrograman Web** di **Dicoding Indonesia**. Website ini merupakan arsip digital personal yang dikurasi dengan estetika vintage/retro, menampilkan daftar destinasi impian dan makanan favorit saya[cite: 1].
+
+### 🏛️ Project Concept
 Terinspirasi dari estetika **"Old Money"** dan vintage, proyek ini mengedepankan:
-- **Typography-focused design**: Menggunakan Playfair Display untuk kesan klasik.
-- **Earthy Neutral Tones**: Palet warna yang tenang dan elegan.
-- **Clean Structure**: Navigasi yang simpel dan fungsional.
+* **Typography-focused design:** Menggunakan *Playfair Display* untuk kesan klasik[cite: 1].
+* **Earthy Neutral Tones:** Palet warna yang tenang dan elegan (#FDFDFD, #8C7851)[cite: 1].
+* **Clean Structure:** Navigasi yang simpel dan fungsional[cite: 1].
 
-## Tech Stack
-Proyek ini memenuhi seluruh kriteria kelulusan Dicoding:
-- **Struktur Semantic**: Menggunakan elemen HTML5 (header, nav, main, footer).
-- **Layout Responsif**: Menggunakan CSS untuk tampilan yang proporsional.
-- **Visual & Tipografi**: Integrasi Google Fonts (Playfair Display & Inter) untuk memperkuat kesan retro-minimalis.
+### 💻 Tech Stack
+* **HTML5:** Struktur semantik (header, nav, main, footer)[cite: 1].
+* **CSS3:** Layout responsif dan integrasi Google Fonts (Playfair Display & Inter)[cite: 1].
+* **Next Goal:** Implementasi **SQL Database** untuk manajemen konten yang lebih dinamis.
 
-## Key Features
-- **Palate**: Kurasi rasa dan kuliner.
-- **Escapes**: Cerita visual dari berbagai lokasi (Kyoto, London, Turkey).
-- **Curator**: Profil singkat mengenai pembuat proyek.
+### ✨ Key Features
+* **Palate:** Kurasi rasa dan kuliner favorit[cite: 1].
+* **Escapes:** Cerita visual dari berbagai lokasi (Kyoto, London, Turkey)[cite: 1].
+* **Curator:** Profil singkat mengenai pembuat proyek[cite: 1].
 
 ---
-*Created by [Fllor Aurora Dyva Oktora](https://github.com/flloraurora5-blip)*
+*Created by **Fllor Aurora Dyva Oktora***[cite: 1]
